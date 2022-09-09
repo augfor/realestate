@@ -36,6 +36,7 @@ const SearchFilters = () => {
             onChange={(e) => searchProperties({ [filter.queryName]: e.target.value })}
           >
             {filter?.items?.map((item) => (
+              // eslint-disable-next-line react/no-unknown-property
               <option value={item.value} key={item.value}>
                 {item.name}
               </option>
