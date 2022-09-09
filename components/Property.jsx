@@ -14,7 +14,7 @@ const Property = ({
     area,
     baths,
     coverPhoto,
-    externalId,
+    externalID,
     isVerified,
     price,
     rentFrequency,
@@ -22,7 +22,7 @@ const Property = ({
     title,
   },
 }) => (
-  <Link href={`/property/${externalId}`} passHref>
+  <Link href={`/property/${externalID}`} passHref>
     <Flex
       flexWrap="wrap"
       w="420px"
